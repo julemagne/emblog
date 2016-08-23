@@ -6,6 +6,10 @@ ol, ul {
 	list-style: none;
 }
 
+h1 small, h3 small {
+	color: #99e64d; /* green */
+}
+
 .navbar {
 	border-radius: 0;
 	border: none;
