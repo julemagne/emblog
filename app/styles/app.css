@@ -24,6 +24,20 @@ h1 small, h3 small {
 	box-shadow: 0px 3px 10px -1px rgba(178,191,184,1);
 }
 
+.archive-thumbnail {
+	max-height: 64px;
+	border: 2px solid #b3ec79; /* green */
+}
+
+.archive {
+	border: 1px solid lightgray;
+	padding: 0.5em;
+	margin: 0.8em;
+	-webkit-box-shadow: 0px 3px 10px -1px rgba(178,191,184,1);
+	-moz-box-shadow: 0px 3px 10px -1px rgba(178,191,184,1);
+	box-shadow: 0px 3px 10px -1px rgba(178,191,184,1);
+}
+
 .logo {
 	width: 100%;
 	margin: -2em 0 0 0;
