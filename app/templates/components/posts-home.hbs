@@ -1,0 +1,20 @@
+<div class="row">
+
+{{#each posts as |blog-post|}}
+  <div class="col-xs-6">
+    <div class="thumbnail">
+      <img src={{blog-post.image}} alt={{blog-post.alt}}/>
+			<div class="caption">
+				<h3 class="major">{{blog-post.title}} <small>{{blog-post.date}}</small></h3>
+				<p>{{blog-post.body}}</p>
+				<a href="#">Read more</a>
+			</div>
+		</div>
+  </div>
+{{/each}}
+
+</div>
+
+<ul class="actions">
+	<li><a href="posts" class="button">Browse All</a></li>
+</ul>
