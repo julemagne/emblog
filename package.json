@@ -31,6 +31,7 @@
     "ember-cli-inject-live-reload": "^1.4.0",
     "ember-cli-jshint": "^1.0.0",
     "ember-cli-mirage": "0.2.1",
+    "ember-cli-moment": "0.0.2",
     "ember-cli-qunit": "^2.0.0",
     "ember-cli-release": "^0.2.9",
     "ember-cli-sri": "^2.1.0",
@@ -41,6 +42,7 @@
     "ember-font-awesome": "2.1.1",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "loader.js": "^4.0.1"
+    "loader.js": "^4.0.1",
+    "moment": "2.14.1"
   }
 }
