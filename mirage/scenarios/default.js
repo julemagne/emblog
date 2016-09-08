@@ -12,11 +12,11 @@ export default function(server) {
 
   server.create('post', {
     id: 2,
-    title:'GEMconf 2016 day 1',
+    title:'GEMconf 2016 day 2-3',
     tagline:'',
-    body:'Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.',
-    date:'Tuesday, August 24, 2016',
-    image:'/assets/images/panel-2-3.jpg',
+    body:'Lorm dolor sit amet, consectetur adipiscing vehicula id em ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.',
+    date:'Tuesday, September 6, 2016',
+    image:'/assets/images/ember-g-mail.png',
     alt:'Triangle GEMconf #emberjs'
   });
 
