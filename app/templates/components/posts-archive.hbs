@@ -5,13 +5,19 @@
 {{#each posts as |blog-post|}}
 	<div class="media archive">
 	  <div class="media-left">
-	    <a href="#">
+	    {{#link-to 'post' blog-post.id}}
       	<img class="media-object archive-thumbnail" src={{blog-post.image}} alt={{blog-post.alt}}/>
-	    </a>
+	    {{/link-to}}
 	  </div>
 	  <div class="media-body">
-	    <h4 class="media-heading">{{blog-post.title}} <small>{{blog-post.date}}</small></h4>
-	    <p>{{blog-post.body}}</p>
+	    <h4 class="media-heading">
+	    	{{#link-to 'post' blog-post.id}}
+					{{blog-post.title}} <small>{{blog-post.date}}</small>
+				{{/link-to}}
+			</h4>
+	    <p>
+	    	{{blog-post.body}}
+	    </p>
 	  </div>
 	</div>
 {{/each}}

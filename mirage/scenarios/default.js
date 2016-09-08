@@ -11,7 +11,7 @@ export default function(server) {
   });
 
   server.create('post', {
-    id: 1,
+    id: 2,
     title:'GEMconf 2016 day 1',
     tagline:'',
     body:'Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.',
@@ -21,7 +21,7 @@ export default function(server) {
   });
 
   server.create('post', {
-    id: 1,
+    id: 3,
     title:'GEMconf 2016 day 1',
     tagline:'',
     body:'Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.',
@@ -31,7 +31,7 @@ export default function(server) {
   });
 
   server.create('post', {
-    id: 1,
+    id: 4,
     title:'GEMconf 2016 day 1',
     tagline:'',
     body:'Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.',

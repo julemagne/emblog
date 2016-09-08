@@ -3,12 +3,19 @@
 {{#each posts as |blog-post|}}
   <div class="col-xs-6">
     <div class="thumbnail">
-      <img src={{blog-post.image}} alt={{blog-post.alt}}/>
+
+    	{{#link-to 'post' blog-post.id class="thumbnail"}}
+      	<img src={{blog-post.image}} alt={{blog-post.alt}}/>
+      {{/link-to}}
+
 			<div class="caption">
-				<h3 class="major">{{blog-post.title}} <small>{{blog-post.date}}</small></h3>
+				{{#link-to 'post' blog-post.id}}
+					<h3 class="major">{{blog-post.title}} <small>{{blog-post.date}}</small></h3>
+				{{/link-to}}
 				<p>{{blog-post.body}}</p>
-				<a href="#">Read more</a>
+				{{#link-to 'post' blog-post.id}}Read More!!!!{{/link-to}}
 			</div>
+
 		</div>
   </div>
 {{/each}}
