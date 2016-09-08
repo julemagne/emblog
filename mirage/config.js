@@ -79,28 +79,9 @@ export default function() {
       ]
     };
   });
+
   this.get('/posts/:post_id', ({posts}, request) => {
-    return {
-      data:         
-        {
-          type: 'posts',
-          id: 3,
-          attributes: {
-            title:'GEMconf 2016 day 1',
-            tagline:'',
-            body:'Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.',
-            date:'Tuesday, August 24, 2016',
-            image:'/assets/images/panel-2-3.jpg',
-            alt:'Triangle GEMconf #emberjs'
-          }
-        }
-    }
+    let p = posts.find(request.params.post_id);
+    return p;
   });
-  // this.get('/posts/:post_id', ({posts}, request) => {
-  //   console.log(posts.findAll);
-  //   console.log(request);
-  //   let p = posts.find(request.params.post_id);
-  //   console.log(p);
-  //   return p;
-  // });
 }
