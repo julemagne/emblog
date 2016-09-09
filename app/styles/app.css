@@ -10,6 +10,13 @@ h1 small, h3 small {
 	color: #99e64d; /* green */
 }
 
+.truncate-dots {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .navbar {
 	border-radius: 0;
 	border: none;

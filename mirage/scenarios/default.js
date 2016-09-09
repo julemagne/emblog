@@ -4,10 +4,11 @@ export default function(server) {
     id: 4,
     title:'The Iron Yard Durham Back End Engineering: Programming Bootcamp Experience',
     tagline:'',
-    body:'On August 31, 2015, I started an intensive Ruby on Rails program centered around creating deployment-ready'+
+    body:'On August 31, 2015, I started an intensive, 12-week'+
+    ' Ruby on Rails program centered around creating deployment-ready'+
     ' web apps with a focus on collaboration with other developers. I devoted 60-80 hours a'+
     ' week learning the core skills of back end web development, as well as some front end'+
-    ' skills. My group named our final, 3-week MVP (Minimum Viable Product) ArtTrack.'+
+    ' skills. The final 3 weeks were dedicated to building an MVP (Minimum Viable Product), ArtTrack.'+
     ' I worked in a group of three developers to build a Ruby on Rails web app with data'+
     ' persistence using SQL that we deployed to Heroku. As primarily Rails developers, we all'+
     ' contributed to the back end and front end aspects, including HTML5, CSS3, JavaScript,'+
