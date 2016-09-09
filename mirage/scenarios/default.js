@@ -14,16 +14,16 @@ export default function(server) {
     ' contributed to the back end and front end aspects, including HTML5, CSS3, JavaScript,'+
     ' jQuery, and Bourbon, an HTML, SASS, and JS framework alternative to Bootstrap.'+
     ' We presented our project on Demo Day, the last day of our course, November 20, 2015.',
-    date:'Wednesday, September 9, 2016',
+    date:'Friday, September 9, 2016',
     image:'http://julemagne.github.io/portfolio/images/fulls/arttrack.png',
     alt:'Triangle GEMconf #emberjs'
   });
 
   server.create('post', {
     id: 3,
-    title:'Show and Tell \'Emblog\' at September \'16 Ember Meetup',
+    title:'Show and Tell \'Emblog\' at September 2016 Ember Meetup',
     tagline:'',
-    body:'Lorem ipslor situm dolor lor sitsit amet, consectetlor situr adipiscing vehilor sitcula id nulla dilor sitgnissim dapibus ultrices.',
+    body:'I presented my favorite parts about building this website at Nest, Raleigh.',
     date:'Thursday, September 8, 2016',
     image:'/assets/images/emblog-2-3.jpg',
     alt:'Triangle GEMconf #emberjs'
@@ -33,7 +33,7 @@ export default function(server) {
     id: 2,
     title:'GEMconf 2016 day 2-3',
     tagline:'',
-    body:'Lorm dolor sit amet, consectetur adipiscing vehicula id em ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.',
+    body:'Workshops.',
     date:'Tuesday, September 6, 2016',
     image:'/assets/images/ember-g-mail.png',
     alt:'Triangle GEMconf #emberjs'
@@ -43,7 +43,8 @@ export default function(server) {
     id: 1,
     title:'GEMconf 2016 day 1',
     tagline:'',
-    body:'Lorem ipsum dolor sit amet, consectetur adipirm dolor sit amet, consectetur adipiscing vehicula id em ipsum dolor sit amet, consectetur adipiscing vehiscing vehicula id nulla dignissim dapibus ultrices.',
+    body:'I helped lead a community discussion.'+
+    ' We talked about OSS (Open Source Software), pair programming, mentoring, and RxJS.',
     date:'Tuesday, August 24, 2016',
     image:'/assets/images/panel-2-3.jpg',
     alt:'Triangle GEMconf #emberjs'
