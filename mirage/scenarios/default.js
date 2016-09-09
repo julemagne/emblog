@@ -12,7 +12,7 @@ export default function(server) {
     ' I worked in a group of three developers to build a Ruby on Rails web app with data'+
     ' persistence using SQL that we deployed to Heroku. As primarily Rails developers, we all'+
     ' contributed to the back end and front end aspects, including HTML5, CSS3, JavaScript,'+
-    ' jQuery, and Bourbon, an HTML, SASS, and JS framework alternative to Bootstrap.'+
+    ' jQuery, and Bourbon (an HTML, SASS, and JS framework alternative to Bootstrap).'+
     ' We presented our project on Demo Day, the last day of our course, November 20, 2015.',
     date:'Friday, September 9, 2016',
     image:'http://julemagne.github.io/portfolio/images/fulls/arttrack.png',
@@ -21,7 +21,7 @@ export default function(server) {
 
   server.create('post', {
     id: 3,
-    title:'Show and Tell \'Emblog\' at September 2016 Ember Meetup',
+    title:'Show and Tell: "Emblog" at September 2016 Ember Meetup',
     tagline:'',
     body:'I presented my favorite parts about building this website at Nest, Raleigh.',
     date:'Thursday, September 8, 2016',
@@ -31,17 +31,17 @@ export default function(server) {
 
   server.create('post', {
     id: 2,
-    title:'GEMconf 2016 day 2-3',
+    title:'GEMconf 2016: Days 2-3',
     tagline:'',
     body:'Workshops.',
-    date:'Tuesday, September 6, 2016',
+    date:'Wednesday, September 7, 2016',
     image:'/assets/images/ember-g-mail.png',
     alt:'Triangle GEMconf #emberjs'
   });
 
   server.create('post', {
     id: 1,
-    title:'GEMconf 2016 day 1',
+    title:'GEMconf 2016: Day 1',
     tagline:'',
     body:'I helped lead a community discussion.'+
     ' We talked about OSS (Open Source Software), pair programming, mentoring, and RxJS.',

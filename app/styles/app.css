@@ -36,6 +36,11 @@ h1 small, h3 small {
 	border: 2px solid #b3ec79; /* green */
 }
 
+.post-thumbnail:hover {
+	border: 2px solid #b3ec79; /* green */
+	width: 100%;
+}
+
 .archive {
 	/*border: 1px solid lightgray;*/
 	padding: 0.5em;
