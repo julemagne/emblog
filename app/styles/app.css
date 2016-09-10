@@ -1,3 +1,5 @@
+/* General site-wide stuff */
+
 a {
 	color: #73c91d; /* green */
 }
@@ -6,7 +8,7 @@ ol, ul {
 	list-style: none;
 }
 
-h1 small, h3 small {
+h1 small, h2 small, h3 small {
 	color: #99e64d; /* green */
 }
 
@@ -17,9 +19,22 @@ h1 small, h3 small {
   text-overflow: ellipsis;
 }
 
+/* Navbar */
+
 .navbar {
 	border-radius: 0;
 	border: none;
+}
+
+/* Images */
+
+.circle-img {
+	border-radius: 50%;
+}
+
+.logo {
+	width: 100%;
+	margin: -2em 0 0 0;
 }
 
 .thumbnail {
@@ -36,19 +51,55 @@ h1 small, h3 small {
 	border: 2px solid #b3ec79; /* green */
 }
 
-.post-thumbnail:hover {
+.archive-thumbnail:hover {
+	max-height: 64px;
 	border: 2px solid #b3ec79; /* green */
+	outline: 1px solid #b3ec79; /* green */
+}
+
+.post-thumbnail:hover {
+	outline: 5px solid #b3ec79; /* green */
 	width: 100%;
+	margin-top: 1px;
+}
+
+/*Home page text */
+
+.caption a h3 {
+	color: black;
+  text-decoration: none;
+}
+
+.caption a h3:hover {
+	color: #73c91d;
+  text-decoration: none;
+}
+
+.caption a:hover {
+  text-decoration: none;
+}
+
+/* Archive text */
+
+h4 a {
+	text-decoration: none;
+}
+
+h4 a:hover {
+	color: #73c91d; /* green */
+	text-decoration: none;
 }
 
 .archive {
-	/*border: 1px solid lightgray;*/
 	padding: 0.5em;
 	margin: 0.8em;
 	-webkit-box-shadow: 0px 4px 8px -3px rgba(178,191,184,1);
 	-moz-box-shadow: 0px 4px 8px -3px rgba(178,191,184,1);
 	box-shadow: 0px 4px 8px -3px rgba(178,191,184,1);
 }
+
+/* About Me text */
+
 .about-me {
 	font-size: 1.2em;
 	padding: 0;
@@ -65,13 +116,4 @@ h1 small, h3 small {
 	color: lightgreen;
 	padding-right: 3em;
   content: '(ﾉ◕ヮ◕)ﾉ *˖.☆✧° ';
-}
-
-.circle-img {
-	border-radius: 50%;
-}
-
-.logo {
-	width: 100%;
-	margin: -2em 0 0 0;
 }
