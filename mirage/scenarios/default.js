@@ -35,7 +35,7 @@ export default function(server) {
     tagline:'',
     body:'Workshops.',
     date:'Wednesday, September 7, 2016',
-    image:'/assets/images/ember-g-mail.png',
+    image:'/assets/images/ember-g-mail-2-3.png',
     alt:'Triangle GEMconf 2016: Days 2-3 #emberjs'
   });
 
