@@ -126,6 +126,7 @@ h4 a:hover {
 }
 
 .archive {
+	border: 1px solid snow;
 	padding: 0.5em;
 	margin: 0.8em;
 	-webkit-box-shadow: 0px 4px 8px -3px rgba(178,191,184,1);

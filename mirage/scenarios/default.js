@@ -15,8 +15,8 @@ export default function(server) {
     ' jQuery, and Bourbon (an HTML, SASS, and JS framework alternative to Bootstrap).'+
     ' We presented our project on Demo Day, the last day of our course, November 20, 2015.',
     date:'Friday, September 9, 2016',
-    image:'http://julemagne.github.io/portfolio/images/fulls/arttrack.png',
-    alt:'Triangle GEMconf #emberjs'
+    image:'/assets/images/the-iron-yard-ruby-on-rails-2-3.jpg',
+    alt:'The Iron Yard Durham Back End Engineering: Programming Bootcamp Experience'
   });
 
   server.create('post', {
@@ -26,7 +26,7 @@ export default function(server) {
     body:'I presented my favorite parts about building this website at Nest, Raleigh.',
     date:'Thursday, September 8, 2016',
     image:'/assets/images/emblog-2-3.jpg',
-    alt:'Triangle GEMconf #emberjs'
+    alt:'Show and Tell: "Emblog" at September 2016 Ember Meetup'
   });
 
   server.create('post', {
@@ -36,7 +36,7 @@ export default function(server) {
     body:'Workshops.',
     date:'Wednesday, September 7, 2016',
     image:'/assets/images/ember-g-mail.png',
-    alt:'Triangle GEMconf #emberjs'
+    alt:'Triangle GEMconf 2016: Days 2-3 #emberjs'
   });
 
   server.create('post', {
@@ -47,7 +47,7 @@ export default function(server) {
     ' We talked about OSS (Open Source Software), pair programming, mentoring, and RxJS.',
     date:'Tuesday, August 24, 2016',
     image:'/assets/images/panel-2-3.jpg',
-    alt:'Triangle GEMconf #emberjs'
+    alt:'Triangle GEMconf 2016: Day 1 #emberjs'
   });
 
 }
