@@ -33,7 +33,7 @@ export default function(server) {
     id: 2,
     title:'GEMconf 2016: Days 2-3',
     tagline:'',
-    body:'Workshops.',
+    body:'Ember workshops led by Chase McCarthy and Jonathan Jackson of Hashrocket.',
     date:'Wednesday, September 7, 2016',
     image:'/assets/images/ember-g-mail-2-3.png',
     alt:'Triangle GEMconf 2016: Days 2-3 #emberjs'
