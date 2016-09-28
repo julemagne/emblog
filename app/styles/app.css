@@ -98,6 +98,11 @@ h2 small, h3 small {
 	margin-top: 1px;
 }
 
+.image-caption-post {
+	font-size: 0.9em;
+	color: gray;
+}
+
 /*Home page text */
 
 .caption a h3 {
