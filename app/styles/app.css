@@ -25,6 +25,17 @@ h2 small, h3 small {
 
 /* Navbar */
 
+.navbar-collapse > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-collapse > ul > li {
+	float: left;
+}
+
 .navbar {
 	border-radius: 0;
 	border: none;
@@ -56,12 +67,17 @@ h2 small, h3 small {
 	opacity: 0.65;
 }
 
+.banner-text h1 {
+	font-size: 2.5em;
+	width: 749px;
+}
+
 .banner-text:after {
   content: '';
   position: absolute;
   bottom: 0.6em;
   width: 100%;
-  height: 6em;
+  height: 4.5em;
   background: snow;
   z-index: -1;
 }
@@ -111,7 +127,7 @@ h2 small, h3 small {
 }
 
 .caption a h3:hover {
-	color: #73c91d;
+	color: #73c91d; /* green */
   text-decoration: none;
 }
 
