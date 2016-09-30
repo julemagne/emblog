@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('post', { path: '/post/:post_id' });
   this.route('about');
   this.route('contact');
+  this.route('page-not-found', { path: '/*wildcard' });
 });
 
 export default Router;
