@@ -41,6 +41,21 @@ h2 small, h3 small {
 	border: none;
 }
 
+/* Footer */
+
+.footer {
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+/* Contact Links */
+
+.info-links-list {
+	margin: 0;
+	padding: 0;
+	font-size: 1.3em;
+}
+
 /* Images */
 
 .circle-img {
@@ -153,6 +168,10 @@ h4 a:hover {
 	-webkit-box-shadow: 0px 4px 8px -3px rgba(178,191,184,1);
 	-moz-box-shadow: 0px 4px 8px -3px rgba(178,191,184,1);
 	box-shadow: 0px 4px 8px -3px rgba(178,191,184,1);
+}
+
+.archive:hover {
+	outline: 1px solid #b3ec79; /* green */
 }
 
 /* About Me text */
