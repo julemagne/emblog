@@ -7,5 +7,6 @@ export default DS.Model.extend({
 	date: DS.attr(),
 	image: DS.attr(),
 	alt: DS.attr(),
-  caption: DS.attr()
+  caption: DS.attr(),
+  clears: DS.attr()
 });

@@ -17,7 +17,8 @@ export default function(server) {
     date:'Friday, September 9, 2016',
     image:'/assets/images/the-iron-yard-ruby-on-rails-2-3.jpg',
     alt:'The Iron Yard Durham Back End Engineering: Programming Bootcamp Experience',
-    caption:'Half my Ruby on Rails class having a coding pool party!'
+    caption:'Half my Ruby on Rails class having a coding pool party!',
+    clears:false
   });
 
   server.create('post', {
@@ -34,7 +35,8 @@ export default function(server) {
     date:'Thursday, September 8, 2016',
     image:'/assets/images/emblog-2-3.jpg',
     alt:'Show and Tell: "Emblog" at September 2016 Ember Meetup',
-    caption:'Here you see me presenting the very code that comprises this website!'
+    caption:'Here you see me presenting the very code that comprises this website!',
+    clears:true
   });
 
   server.create('post', {
@@ -45,7 +47,8 @@ export default function(server) {
     date:'Wednesday, September 7, 2016',
     image:'/assets/images/ember-g-mail-2-3.png',
     alt:'Triangle GEMconf 2016: Days 2-3 #emberjs',
-    caption:'Screenshot of the email app prototype developed in the workshop.'
+    caption:'Screenshot of the email app prototype developed in the workshop.',
+    clears:false
   });
 
   server.create('post', {
@@ -57,7 +60,8 @@ export default function(server) {
     date:'Tuesday, August 24, 2016',
     image:'/assets/images/panel-2-3.jpg',
     alt:'Triangle GEMconf 2016: Day 1 #emberjs',
-    caption:'Community Discussion panel with Tracy Lee, myself (Julie David), and Todd Jordan.'
+    caption:'Community Discussion panel with Tracy Lee, myself (Julie David), and Todd Jordan.',
+    clears:true
   });
 
 }
