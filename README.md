@@ -1,7 +1,6 @@
 # Emblog
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Responsive blog I designed and built using Ember CLI and Bootstrap with Mirage as a mock back end server. View live on Firebase at https://emblog-aff8a.firebaseapp.com/
 
 ## Prerequisites
 
