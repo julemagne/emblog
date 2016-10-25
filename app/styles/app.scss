@@ -58,9 +58,21 @@ h2 small, h3 small {
 
 .info-links-list {
   margin: 0;
-  padding: 0;
+  padding: 1.1em 0 0 0;
   font-size: 1.3em;
   line-height: 2em;
+  animation-duration: 1.5s;
+  animation-name: slidein-links;
+}
+
+@keyframes slidein-links {
+  from {
+    margin-top: -10%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
 }
 
 /* Images */
