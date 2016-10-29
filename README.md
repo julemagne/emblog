@@ -40,7 +40,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* `firebase deploy --project emblog-aff8a`
 
 ## Further Reading / Useful Links
 
