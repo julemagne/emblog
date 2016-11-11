@@ -1,6 +1,6 @@
 # Emblog
 
-Responsive blog I designed and built using Ember CLI and Bootstrap with Mirage as a mock back end server. View live on Firebase at https://emblog-aff8a.firebaseapp.com/
+Responsive blog I designed and built using Ember CLI, Bootstrap, and Sass with Mirage as a mock back end server. View live on Firebase at https://emblog-aff8a.firebaseapp.com/
 
 ## Prerequisites
 

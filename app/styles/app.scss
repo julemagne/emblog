@@ -98,11 +98,22 @@ h2 small, h3 small {
 
 }
 
+$banner-text-h1-size: 2.5em/2;
+
 .banner-text {
   opacity: 0.65;
 
   h1 {
-    font-size: 2.5em;
+
+    @media screen and (min-width: 768px) {
+      font-size: $banner-text-h1-size * 2;
+    }
+
+    @media screen and (min-width: 325px) and (max-width: 767px) {
+      font-size: $banner-text-h1-size * 1.5;
+    }
+
+    font-size: $banner-text-h1-size;
     width: 100%;
     margin: 0;
     padding: 0em 1em 0.2em 0em;
