@@ -1,24 +1,3 @@
 <div class="container">
-	<div class="col-12">
-
-		<h2>{{model.title}} <small>{{model.date}}</small></h2>
-
-	  <div class="col-sm-4 col-xs-12">
-	    <div class="thumbnail">
-	    	<a href="{{model.image}}">
-	      	<img src={{model.image}} alt={{model.alt}} class="post-thumbnail"/>
-	      </a>
-	   	</div>
-	   	<p class="image-caption-post">
-	   		<b>Picture:</b> {{model.caption}}
-	   	</p>
-	  </div>
-
-	  <div class="col-sm-8 col-xs-12">
-			<div class="caption">
-				<p>{{model.body}}</p>
-			</div>
-		</div>
-
-	</div>
+	{{post-detail post=model}}
 </div>

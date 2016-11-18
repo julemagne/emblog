@@ -1,0 +1,22 @@
+<div class="col-12">
+
+  <h2>{{post.title}} <small>{{post.date}}</small></h2>
+
+  <div class="col-sm-4 col-xs-12">
+    <div class="thumbnail">
+      <a href="{{post.image}}">
+        <img src={{post.image}} alt={{post.alt}} class="post-thumbnail"/>
+      </a>
+    </div>
+    <p class="image-caption-post">
+      <b>Picture:</b> {{post.caption}}
+    </p>
+  </div>
+
+  <div class="col-sm-8 col-xs-12">
+    <div class="caption">
+      <p>{{post.body}}</p>
+    </div>
+  </div>
+
+</div>
