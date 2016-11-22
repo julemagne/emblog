@@ -212,21 +212,48 @@ h4 a:hover {
 }
 
 /* About Me text */
+$about-me-text-size: 1.3em;
+$odd-li-padding: 5em;
+$even-li-padding: 3em;
 
 .about-me {
-  font-size: 1.3em;
+  @media screen and (min-width: 1px) and (max-width: 324px){
+    font-size: $about-me-text-size*0.75;
+  }
+
+  @media screen and (min-width: 325px) and (max-width: 767px) {
+    font-size: $about-me-text-size*0.8;
+  }
+
+  font-size: $about-me-text-size;
   padding: 0;
   line-height: 2.2em;
 
   li:nth-of-type(odd):before {
+    @media screen and (min-width: 1px) and (max-width: 324px){
+      padding-right: $odd-li-padding*0.3;
+    }
+    
+    @media screen and (min-width: 325px) and (max-width: 767px) {
+      padding-right: $odd-li-padding*0.4;
+    }
+
     color: gold;
-    padding-right: 5em;
+    padding-right: $odd-li-padding;
     content: ' ☆‿☆';
   }
 
   li:nth-of-type(even):before {
+    @media screen and (min-width: 1px) and (max-width: 324px){
+      padding-right: $even-li-padding*0.3;
+    }
+
+    @media screen and (min-width: 325px) and (max-width: 767px) {
+      padding-right: $even-li-padding*0.4;
+    }
+
     color: lightgreen;
-    padding-right: 3em;
+    padding-right: $even-li-padding;
     content: '(ﾉ◕ヮ◕)ﾉ *˖.☆✧° ';
   }
 
