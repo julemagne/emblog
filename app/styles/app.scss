@@ -217,6 +217,9 @@ $odd-li-padding: 5em;
 $even-li-padding: 3em;
 
 .about-me {
+  animation-duration: 1.5s;
+  animation-name: slidein-links;
+
   @media screen and (min-width: 1px) and (max-width: 324px){
     font-size: $about-me-text-size*0.75;
   }
