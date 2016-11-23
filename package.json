@@ -1,7 +1,7 @@
 {
-  "name": "emblog",
+  "name": "Emblog",
   "version": "0.0.0",
-  "description": "Small description for emblog goes here",
+  "description": "Ember blog",
   "private": true,
   "directories": {
     "doc": "doc",
