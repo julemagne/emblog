@@ -20,6 +20,7 @@ h2 small, h3 small {
 }
 
 .truncate-dots {
+  color: black;
   white-space: nowrap;
   width: 100%;
   overflow: hidden;
@@ -172,21 +173,30 @@ $banner-text-h1-size: 2.5em/2;
 }
 
 /*Home page text */
+.thumbnail {
+  a:hover{text-decoration: none;}
 
-.caption a h3 {
-  color: black;
-  text-decoration: none;
+  .caption {
+    color: #73c91d; /* green */
+    
+    :hover{
+      text-decoration: none;
+    }
+
+    h3 {
+      color: black;
+      text-decoration: none;    
+      margin-top: 0;
+    }
+
+    h3:hover {
+      color: #73c91d; /* green */
+      text-decoration: none;
+    }
+    
+  }
+
 }
-
-.caption a h3:hover {
-  color: #73c91d; /* green */
-  text-decoration: none;
-}
-
-.caption a:hover {
-  text-decoration: none;
-}
-
 /* Archive text */
 
 h4 a {
