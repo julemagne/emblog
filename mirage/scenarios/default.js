@@ -43,7 +43,12 @@ export default function(server) {
     id: 2,
     title:'GEMconf 2016: Days 2-3',
     tagline:'',
-    body:'Ember workshops led by Chase McCarthy and Jonathan Jackson of Hashrocket.',
+    body:'I participated in two 8-hour days of Ember workshops led by Chase McCarthy '+
+    ' and Jonathan Jackson of Hashrocket.'+
+    ' It was great to be able to learn from and interact in person with Ember experts.'+
+    ' We live coded an email prototype in Ember over two days.'+
+    ' It was an introduction to routes, forms, Ember Data, and Mirage.'+
+    ' I learned so much about Ember in this fast-paced crash course.',
     date:'Wednesday, September 7, 2016',
     image:'/assets/images/ember-g-mail-2-3.png',
     alt:'Triangle GEMconf 2016: Days 2-3 #emberjs',
