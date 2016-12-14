@@ -44,7 +44,7 @@ export default function(server) {
     title:'GEMconf 2016: Days 2-3',
     tagline:'',
     body:'I participated in two 8-hour days of Ember workshops led by Chase McCarthy '+
-    ' and Jonathan Jackson of Hashrocket.'+
+    ' and Jonathan Jackson of Hashrocket at Interactive Intelligence in Durham, NC.'+
     ' It was great to be able to learn from and interact in person with Ember experts.'+
     ' We live coded an email prototype in Ember over two days.'+
     ' It was an introduction to routes, forms, Ember Data, and Mirage.'+
@@ -60,7 +60,7 @@ export default function(server) {
     id: 1,
     title:'GEMconf 2016: Day 1',
     tagline:'',
-    body:'I helped lead a community discussion.'+
+    body:'I helped lead a community discussion at Bronto Software in Durham, NC.'+
     ' We talked about OSS (Open Source Software), pair programming, mentoring, and RxJS.',
     date:'Tuesday, August 24, 2016',
     image:'/assets/images/panel-2-3.jpg',
