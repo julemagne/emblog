@@ -193,7 +193,7 @@ $banner-text-h1-size: 2.5em/2;
       color: #73c91d; /* green */
       text-decoration: none;
     }
-    
+
   }
 
 }
@@ -226,9 +226,19 @@ $about-me-text-size: 1.3em;
 $odd-li-padding: 5em;
 $even-li-padding: 3em;
 
+@keyframes slidein-about-me {
+  from {
+    margin-top: 15%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
 .about-me {
-  animation-duration: 1.5s;
-  animation-name: slidein-links;
+  animation-duration: 1s;
+  animation-name: slidein-about-me;
 
   @media screen and (min-width: 1px) and (max-width: 324px){
     font-size: $about-me-text-size*0.75;
