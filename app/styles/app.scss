@@ -223,8 +223,8 @@ h4 a:hover {
 
 /* About Me text */
 $about-me-text-size: 1.3em;
-$odd-li-padding: 5em;
-$even-li-padding: 3em;
+$odd-li-padding: 0.5em;
+$even-li-padding: 2.1em;
 
 @keyframes slidein-about-me {
   from {
@@ -263,7 +263,7 @@ $even-li-padding: 3em;
 
     color: gold;
     padding-right: $odd-li-padding;
-    content: ' ☆‿☆';
+    content: '\\( ☆‿☆ )/\\( ◉◡◉ )/';
   }
 
   li:nth-of-type(even):before {
