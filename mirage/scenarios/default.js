@@ -1,6 +1,42 @@
 export default function(server) {
 
   server.create('post', {
+    id: 5,
+    title:'Reflecting on My First Year Employed as a Software Developer',
+    tagline:'',
+    body:'I prepared for my career in software development by attending a'+
+    ' programming bootcamp called The Iron Yard Durham in August-November'+
+    ' of 2015 (which I wrote about in a previous post).'+
+    ' I accepted a software development job in December of 2015 and'+
+    ' started one year ago today, January 4, 2016. I worked at'+
+    ' EmployUs, a startup based in Raleigh, North Carolina, USA.'+
+    ' I was the only developer in the company and set about to write the'+
+    ' greenfield admin web portal, from scratch, in beta Angular 2.'+
+    ' The stack also included a Node.js REST API with Express, mongoDB,'+
+    ' and Google Cloud Services for hosting as an alternative to AWS.'+
+    ' I knew more about Ruby on Rails than JavaScript but I accepted the'+
+    ' challenge and learned so much on the job and by attending meetups in the Triangle area.'+
+    ' Working at a startup with 6 people at its largest was always fast-paced and interesting.'+
+    ' My favorite part was seeing that the app I built was in the real world helping people.'+
+    ' I\'m a creative person and I love the feeling of making something'+
+    ' that I can show to people, and also knowing I can always improve'+
+    ' my skills and therefore my work. I parted ways amicably with'+
+    ' EmployUs at the end of August 2016 and started working at Cisco in'+
+    ' the Research Triangle Park on October 3, 2016. My team is'+
+    ' bigger now, but I am still unique in my team since I am the only'+
+    ' User Experience Engineer. This is a great opportunity for me to'+
+    ' focus on using the design skills I honed in university in a web UI'+
+    ' context. (I have a BFA, maybe a topic for another post?) Overall,'+
+    ' 2016 was a great start to my journey into software development'+
+    ' and I\'m now happily coding in 2017!',
+    date:'Wednesday, January 4, 2017',
+    image:'/assets/images/office-2-3.jpg',
+    alt:'Reflecting on My First Year Employed as a Software Developer',
+    caption:'View from my office at EmployUs.',
+    clears:false
+  });
+
+  server.create('post', {
     id: 4,
     title:'The Iron Yard Durham Back End Engineering: Programming Bootcamp Experience',
     tagline:'',
@@ -18,7 +54,7 @@ export default function(server) {
     image:'/assets/images/the-iron-yard-ruby-on-rails-2-3.jpg',
     alt:'The Iron Yard Durham Back End Engineering: Programming Bootcamp Experience',
     caption:'Half my Ruby on Rails class having a coding pool party!',
-    clears:false
+    clears:true
   });
 
   server.create('post', {
@@ -36,7 +72,7 @@ export default function(server) {
     image:'/assets/images/emblog-2-3.jpg',
     alt:'Show and Tell: "Emblog" at September 2016 Ember Meetup',
     caption:'Here you see me presenting the very code that comprises this website!',
-    clears:true
+    clears:false
   });
 
   server.create('post', {
@@ -53,7 +89,7 @@ export default function(server) {
     image:'/assets/images/ember-g-mail-2-3.png',
     alt:'Triangle GEMconf 2016: Days 2-3 #emberjs',
     caption:'Screenshot of the email app prototype developed in the workshop.',
-    clears:false
+    clears:true
   });
 
   server.create('post', {
@@ -66,7 +102,7 @@ export default function(server) {
     image:'/assets/images/panel-2-3.jpg',
     alt:'Triangle GEMconf 2016: Day 1 #emberjs',
     caption:'Community Discussion panel with Tracy Lee, myself (Julie David), and Todd Jordan.',
-    clears:true
+    clears:false
   });
 
 }
