@@ -1,13 +1,21 @@
-<nav class="navbar navbar-inverse">
-	<div class="container-fluid">
-		<div class="navbar-collapse">
-			<a class="navbar-brand" href="#"></a>
-			<ul class="nav navbar-nav">
-				<li>{{#link-to 'index'}}Home{{/link-to}}</li>
-				<li>{{#link-to 'posts'}}Posts{{/link-to}}</li>
-				<li>{{#link-to 'about'}}About Me{{/link-to}}</li>
-				<li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
-			</ul>
-		</div>
-	</div>
-</nav>
+{{#bs-navbar bind-attr class="navbar-inverse"}}
+  <div class="navbar-header">
+    {{#bs-navbar-toggle}}
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    {{/bs-navbar-toggle}}
+    <a class="navbar-brand" href="/">
+    	<img class="circle-img pull-right brand-size" src="assets/images/avatar.jpg" alt="Me"/>
+    </a>
+  </div>
+  {{#bs-navbar-content}}
+    {{#bs-navbar-nav}}
+      {{#bs-nav-item}}{{#link-to "index"}}Home{{/link-to}}{{/bs-nav-item}}
+      {{#bs-nav-item}}{{#link-to "posts"}}Posts{{/link-to}}{{/bs-nav-item}}
+      {{#bs-nav-item}}{{#link-to "about"}}About Me{{/link-to}}{{/bs-nav-item}}
+      {{#bs-nav-item}}{{#link-to "contact"}}Contact{{/link-to}}{{/bs-nav-item}}
+    {{/bs-navbar-nav}}
+  {{/bs-navbar-content}}
+{{/bs-navbar}}
