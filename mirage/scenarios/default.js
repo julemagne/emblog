@@ -1,6 +1,38 @@
 export default function(server) {
 
   server.create('post', {
+    id: 7,
+    title:'What to Learn First When You\'re Learning Programming: JavaScript Edition',
+    tagline:'',
+    body:''+
+    ' I started learning to program 2 years ago, in 2015.'+
+    ' There is so much to know about programming, and I didn\'t know where to start.'+
+    ' I found so much, and I didn\'t know what I should prioritize learning.'+
+    ' So, I am writing this article as one that I would have liked to have.',
+    date:'Friday, February 10, 2017',
+    image:'/assets/images/office-2-3.jpg',
+    alt:'What to Learn First When You\'re Learning Programming: JavaScript Edition',
+    caption:'View from my office at EmployUs.',
+    clears:false
+  });
+
+  server.create('post', {
+    id: 6,
+    title:'What to Learn First When You\'re Learning Programming: Ruby Edition',
+    tagline:'',
+    body:''+
+    ' I started learning to program 2 years ago, in 2015.'+
+    ' There is so much to know about programming, and I didn\'t know where to start.'+
+    ' I found so much, and I didn\'t know what I should prioritize learning.'+
+    ' So, I am writing this article as one that I would have liked to have.',
+    date:'Tuesday, January 31, 2017',
+    image:'/assets/images/office-2-3.jpg',
+    alt:'What to Learn First When You\'re Learning Programming: Ruby Edition',
+    caption:'View from my office at EmployUs.',
+    clears:true
+  });
+
+  server.create('post', {
     id: 5,
     title:'Reflecting on My First Year Employed as a Software Developer',
     tagline:'',
