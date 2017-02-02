@@ -5,7 +5,7 @@ export default function(server) {
     title:'What to Learn First When You\'re Learning Programming: JavaScript Edition',
     tagline:'',
     body:''+
-    ' I started learning to program 2 years ago, in 2015.'+
+    ' I started learning to program two years ago, in 2015.'+
     ' There is so much to know about programming, and I didn\'t know where to start.'+
     ' I found so much, and I didn\'t know what I should prioritize learning.'+
     ' So, I am writing this article as one that I would have liked to have.',
@@ -21,11 +21,11 @@ export default function(server) {
     title:'What to Learn First When You\'re Learning Programming: Ruby Edition',
     tagline:'',
     body:''+
-    ' I started learning to program 2 years ago, in 2015.'+
+    ' I started learning to program two years ago, in 2015.'+
     ' There is so much to know about programming, and I didn\'t know where to start.'+
     ' I found so much, and I didn\'t know what I should prioritize learning.'+
     ' So, I am writing this article as one that I would have liked to have.',
-    date:'Tuesday, January 31, 2017',
+    date:'Wednesday, February 1, 2017',
     image:'/assets/images/office-2-3.jpg',
     alt:'What to Learn First When You\'re Learning Programming: Ruby Edition',
     caption:'View from my office at EmployUs.',
