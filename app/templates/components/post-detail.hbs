@@ -15,7 +15,11 @@
 
   <div class="col-sm-8 col-xs-12">
     <div class="caption">
-      <p>{{post.body}}</p>
+    
+    {{#each post.body as |blog-paragraph|}}
+      <p>{{blog-paragraph}}</p>
+    {{/each}}
+
     </div>
   </div>
 
