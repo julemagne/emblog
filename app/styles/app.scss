@@ -139,21 +139,25 @@ $banner-text-h1-size: 2.5em/2;
   -webkit-box-shadow: 0px 3px 10px -1px rgba(178,191,184,1);
   -moz-box-shadow: 0px 3px 10px -1px rgba(178,191,184,1);
   box-shadow: 0px 3px 10px -1px rgba(178,191,184,1);
+  &:hover {
+    border: none;
+  }
 }
 
 .archive-thumbnail {
   max-height: 64px;
   border: 2px solid #b3ec79; /* green */
-}
-
-.archive-thumbnail:hover {
-  max-height: 64px;
-  border: 2px solid #b3ec79; /* green */
-  outline: 1px solid #b3ec79; /* green */
+  &:hover {
+    max-height: 64px;
+    border: 2px solid #b3ec79; /* green */
+    outline: 1px solid #b3ec79; /* green */  
+  }
 }
 
 .post-thumbnail:hover {
-  outline: 5px solid #b3ec79; /* green */
+  border: none;
+  outline: 3px solid #b3ec79; /* green */
+  outline-offset: 3px;
   width: 100%;
   margin-top: 1px;
 }
