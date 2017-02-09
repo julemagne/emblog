@@ -17,9 +17,9 @@
 					{{blog-post.title}} <small>{{blog-post.date}}</small>
 				{{/link-to}}
 			</h4>
-	    <p>
-	    	{{blog-post.body}}
-	    </p>
+	    {{#each blog-post.body as |blog-paragraph|}}
+	      <p>{{blog-paragraph}}</p>
+	    {{/each}}
 	  </div>
 	</div>
 {{/each}}
