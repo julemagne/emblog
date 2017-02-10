@@ -1,4 +1,4 @@
-<div class="col-12">
+<div class="col-12 fadeIn">
 
   <h2>{{post.title}} <small>{{post.date}}</small></h2>
 
@@ -15,7 +15,7 @@
 
   <div class="col-sm-8 col-xs-12">
     <div class="caption">
-    
+
     {{#each post.body as |blog-paragraph|}}
       <p>{{blog-paragraph}}</p>
     {{/each}}
